@@ -1,18 +1,51 @@
-# Hangman Game
+# CodeAlpha Python Programming Internship
 
-This is Task 1 of my CodeAlpha Python Programming Internship.
+This repository contains my projects completed as part of the CodeAlpha Python Programming Internship.
 
-## Project Description
-The Hangman Game is a word guessing game developed using Python. The player tries to guess a hidden word by entering one letter at a time.
+## Task 1: Hangman Game
 
-## Features
-- Random word selection
-- User-friendly gameplay
-- Limited attempts
-- Win/Lose messages
+### Description
 
-## Technologies Used
-- Python
+The Hangman Game is a simple word guessing game developed using Python. The player tries to guess a hidden word one letter at a time.
 
-## Demo Video
-See the uploaded video file in this repository.
+### Features
+
+* Random word selection
+* Limited number of attempts
+* User-friendly console interface
+* Displays win or lose message
+
+### Technologies Used
+
+* Python
+* Random Module
+
+---
+
+## Task 2: Stock Portfolio Tracker
+
+### Description
+
+The Stock Portfolio Tracker is a Python project that calculates the total investment value of stocks owned by a user.
+
+### Features
+
+* Stores stock prices using a dictionary
+* Accepts stock names and quantities as input
+* Calculates stock investment value
+* Displays total portfolio value
+* Option to save results to a text file
+
+### Technologies Used
+
+* Python
+* Dictionary
+* File Handling
+
+---
+
+## Author
+
+Ayora
+
+CodeAlpha Python Programming Internship
