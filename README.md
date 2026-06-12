@@ -44,8 +44,38 @@ The Stock Portfolio Tracker is a Python project that calculates the total invest
 
 ---
 
-## Author
+#CodeAlpha
+# CodeAlpha Python Programming Internship
 
-Ayora
+## Task 4: Basic Chatbot
 
-CodeAlpha Python Programming Internship
+### Project Description
+This project is a simple chatbot developed using Python. The chatbot interacts with users by responding to predefined messages. It demonstrates the use of functions, loops, conditional statements, and user input handling in Python.
+
+### Features
+- Responds to user greetings.
+- Answers simple questions.
+- Ends the conversation when the user types "bye".
+- Handles unknown inputs with a default response.
+
+### Technologies Used
+- Python
+
+### Source Code
+
+```python
+def chatbot():
+    while True:
+        user = input("You: ").lower()
+
+        if user == "hello":
+            print("Bot: Hi!")
+        elif user == "how are you":
+            print("Bot: I'm fine, thanks!")
+        elif user == "bye":
+            print("Bot: Goodbye!")
+            break
+        else:
+            print("Bot: Sorry, I don't understand.")
+
+chatbot()
